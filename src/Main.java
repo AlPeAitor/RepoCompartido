@@ -8,13 +8,17 @@ public class Main {
         System.out.println("Segundo commit");
 
         System.out.println(suma(3,5)+" es el resultado de la suma");
-
+        System.out.println(resta(3,5)+" es el resultado de la resta");
 
 
 
 }
 
     public static int suma(int num1, int num2){
+
+        return num1+num2;
+    }
+    public static int resta(int num1, int num2){
 
         return num1-num2;
     }
