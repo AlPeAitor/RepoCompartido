@@ -6,5 +6,15 @@ public class Main {
         System.out.println("Adios");
 
         System.out.println("Segundo commit");
+
+        System.out.println(suma(3,5));
+
+
+
+
+}
+
+    public static int suma(int n1, int n2){
+        return n1+n2;
     }
 }
